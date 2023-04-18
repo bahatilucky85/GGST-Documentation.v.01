@@ -22,6 +22,13 @@ Contents
 --------
 
 .. toctree::
+    :caption: Table of Contents
+    :name: mastertoc
+    :maxdepth: 1
+
+    api-documentation
+    dev-notes
+    license
 
    Background
    Funding
