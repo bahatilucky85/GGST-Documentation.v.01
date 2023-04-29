@@ -16,8 +16,11 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
+    'sphinx_rtd_size',
     'sphinx.ext.intersphinx',
 ]
+
+sphinx_rtd_size_width = "90%"
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
