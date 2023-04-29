@@ -40,5 +40,5 @@ epub_show_urls = 'footnote'
 def setup(app):
     app.add_css_file('my_theme.css')
     
- html_static_path = ['_static']
+html_static_path = ['_static']
 
