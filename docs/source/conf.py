@@ -16,11 +16,11 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx_rtd_size',
+    #'sphinx_rtd_size',
     'sphinx.ext.intersphinx',
 ]
 
-sphinx_rtd_size_width = "90%"
+#sphinx_rtd_size_width = "90%"
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -36,4 +36,9 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+def setup(app):
+    app.add_css_file('my_theme.css')
+    
+ html_static_path = ['_static']
 
