@@ -14,6 +14,9 @@ These interpolated water table maps can be used to evaluate the sustainability o
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
+To search on Google, visit `Google <https://www.google.com>`_.
+
+
 .. note::
 
    This project is under active development.
