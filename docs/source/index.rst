@@ -5,7 +5,7 @@ Welcome to the Ground Water Data Mapper Documentation!
 
    .. container:: leftside
 
-      .. figure:: _static/illustrations/structure.svg
+      .. figure:: _statics/file_format.png
 
    .. container:: rightside
 
