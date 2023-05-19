@@ -41,6 +41,16 @@ def setup(app):
     app.add_css_file('my_theme.css')
 html_static_path = ['_statics']
 
-def setup(app):
-    app.containers('containers.css')
-html_static_path = ['_statics']
+
+
+
+## conf.py
+
+# These folders are copied to the documentation's HTML output
+html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'containers.css',
+]
