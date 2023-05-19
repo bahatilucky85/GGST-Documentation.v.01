@@ -28,6 +28,30 @@ To practice using this script, download and open the attached set of files (top 
 
    This project is under active development.
 
+.. raw:: html
+<div class="row">
+		<div class="col-md-4">
+			<img class="img-responsive " style="max-height:200px; align-items: center" src="images_scripts/usgs_logo.png" alt="USGS logo"/>
+		</div>
+		
+		<div class="col-md-8">
+			<p>
+				This tool is meant for retrieving groundwater data files from the USGS National Water Information 
+				System (NWIS) data repository. The data from NWIS is only available for areas maintained by USGS. This tool: 
+			</p> 
+			<ul>
+				<li>queries the NWIS database for wells and time series measurements that meet the user-specified time and place parameters</li>
+				<li>assigns aquifers to each well</li>
+				<li>drops wells that fall outside the aquifer boundary</li>
+			</ul>
+			<p>The tool requires an aquifers file as input and produces a formatted wells file and time series file (ready for import into the GWDM app). </p>
+			<p>To practice using this tool, download and open the attached set of files and locate the UtahMajorAquifers geojson file. </p>
+			<a href="https://colab.research.google.com/gist/mdstev1/8086be08d3c7c753dad2ada31aafb85f/nwis-file-retriever.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open NWIS File Retriever In Colab"/></a>
+		</div>
+	</div>
+    
+    
+    
 Contents
 --------
 
