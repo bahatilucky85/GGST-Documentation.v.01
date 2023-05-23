@@ -18,6 +18,7 @@ extensions = [
     'sphinx.ext.autosummary',
     #'sphinx_rtd_size',
     'sphinx.ext.intersphinx',
+     'sphinx_panels',
 ]
 
 #sphinx_rtd_size_width = "90%"
