@@ -109,6 +109,27 @@ To practice using this script, download and open the attached set of files and l
     
     
 **NWIS File Retriever**
+
+API
+===
+.. grid:: 1 2 3 4
+    :outline:
+
+    .. grid-item::
+
+        A
+
+    .. grid-item::
+
+        B
+
+    .. grid-item::
+
+        C
+
+    .. grid-item::
+
+        D
         
 .. image:: images_scripts/usgs_logo.png
     :align: left
