@@ -44,14 +44,5 @@ html_static_path = ['_statics']
 
 
 
-
-## conf.py
-
-# These folders are copied to the documentation's HTML output
-html_static_path = ['_static']
-
-# These paths are either relative to html_static_path
-# or fully qualified paths (eg. https://...)
-html_css_files = [
-    'docs/source/_statics/containers.css,
-]
+def setup(app):
+    app.add_css_file('css/custom.css')  # may also be an URL
