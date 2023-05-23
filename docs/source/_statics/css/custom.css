@@ -1,2 +1,9 @@
-def setup(app):
-    app.add_css_file('css/custom.css')  # may also be an URL
+div.leftside {
+    width: 414px;
+    padding: 0px 3px 0px 0px;
+    float: left;
+}
+
+div.rightside {
+    margin-left: 425px;
+}
