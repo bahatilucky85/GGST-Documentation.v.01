@@ -18,7 +18,6 @@ extensions = [
     'sphinx.ext.autosummary',
     #'sphinx_rtd_size',
     'sphinx.ext.intersphinx',
-     'sphinxcontrib.plantuml',
 ]
 
 #sphinx_rtd_size_width = "90%"
