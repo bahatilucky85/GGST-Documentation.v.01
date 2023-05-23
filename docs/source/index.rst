@@ -7,17 +7,6 @@
 **Introduction**
 ------------------
 
-+---------+---------+---------+---------+
-| Header1 | Header2 | Header3 | Header4 |
-+=========+=========+=========+=========+
-|   Row1  |   Row1  |   Row1  |   Row1  |
-+---------+---------+---------+---------+
-|   Row2  |   Row2  |   Row2  |   Row2  |
-+---------+---------+---------+---------+
-|   Row3  |   Row3  |   Row3  |   Row3  |
-+---------+---------+---------+---------+
-|   Row4  |   Row4  |   Row4  |   Row4  |
-+---------+---------+---------+---------+
 
 
 .. container:: twocol
@@ -33,7 +22,7 @@
 
    .. container:: rightside
 
-       Right tool can be used to retrieve elevations for wells that are missing ground surface elevations. These ground surface elevations are used for calculating Water Table Elevation        (WTE) and are included as well metadata in the app. It samples a global, 30-meter DEM for each well location, providing a reasonable estimate for each missing GSE. Please note             that       its accuracy is limited and that field-measured GSE measurements are preferable. A file with well locations (lat/long coordinates) is required as input and a file          with GSE's             generated for each well will be ouptut.
+       Right tool can be used to retrieve elevations for wells that are missing ground surface elevations. These ground surface elevations are used for calculating Water Table Elevation        (WTE) and are included as well metadata in the app. It samples a global, 30-meter DEM for each well location, providing a reasonable estimate for each missing GSE. Please note             that its accuracy is limited and that field-measured GSE measurements are preferable. A file with well locations (lat/long coordinates) is required as input and a file                   with GSE's generated for each well will be ouptut.
       
       
       
@@ -48,6 +37,17 @@ An example set of files has been provided; however, you are welcome to use your 
     :expand:
     
 **Elevation Generator** 
+
+
+.. container:: twocol
+
+   .. container:: leftside
+
+      .. figure:: _static/illustrations/structure.svg
+
+   .. container:: rightside
+
+      Bla-bla-blah, and yada-yada.
  
  
  .. container:: right
@@ -110,26 +110,7 @@ To practice using this script, download and open the attached set of files and l
     
 **NWIS File Retriever**
 
-API
-===
-.. grid:: 1 2 3 4
-    :outline:
 
-    .. grid-item::
-
-        A
-
-    .. grid-item::
-
-        B
-
-    .. grid-item::
-
-        C
-
-    .. grid-item::
-
-        D
         
 .. image:: images_scripts/usgs_logo.png
     :align: left
