@@ -1,32 +1,20 @@
 API
 ===
+.. grid:: 1 2 3 4
+    :outline:
 
-.. panels::
-    :img-top-cls: pl-5 pr-5
+    .. grid-item::
 
-    ---
-    :img-top: _static/ebp-logo.png
-    :img-bottom: _static/footer-banner.jpg
+        A
 
-    header 1
-    ^^^^^^^^
+    .. grid-item::
 
-    Panel 1 content
+        B
 
-    More **content**
+    .. grid-item::
 
-    ++++++
-    tail 1
+        C
 
-    ---
-    :img-top: _static/sphinx-logo.png
-    :img-top-cls: + bg-success
-    :img-bottom: _static/footer-banner.jpg
+    .. grid-item::
 
-    header 2
-    ^^^^^^^^
-
-    Panel 2 content
-
-    ++++++
-    tail 1
+        D
